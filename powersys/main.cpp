@@ -9,8 +9,9 @@ int main(int argc, char *argv[])
     MainWindow w;
 
 
+
     w.graph->axisX()->setAutoAdjustRange(true);
-    w.graph->axisY()->setAutoAdjustRange(true);
+    w.graph->axisY()->setRange(40,60);
     w.graph->axisZ()->setAutoAdjustRange(true);
 
 

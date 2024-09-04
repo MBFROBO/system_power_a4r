@@ -1,12 +1,16 @@
 <RCC>
     <qresource prefix="/">
-<!--        <file>images/copy.png</file>
-        <file>images/cut.png</file>
-        <file>images/new.png</file>
-        <file>images/open.png</file>
-        <file>images/paste.png</file>
-        <file>images/save.png</file>-->
         <file>schema.png</file>
         <file>test.png</file>
+        <file>powersys.png</file>
+        <file>output-onlinepngtools.png</file>
+        <file>Es.png</file>
+        <file>Es.jpg</file>
+        <file>ES_3G2.png</file>
+        <file>ES_4G1.png</file>
+        <file>ES_12.png</file>
+        <file>ES_23.png</file>
+        <file>ES_G24.png</file>
+        <file>ES_G11.png</file>
     </qresource>
 </RCC>

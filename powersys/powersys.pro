@@ -9,7 +9,10 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    chart_form.cpp \
+    doc.cpp \
     form.cpp \
+    form_debug.cpp \
     main.cpp \
     mainwindow.cpp \
     normal_regim.cpp \
@@ -17,7 +20,10 @@ SOURCES += \
     relief_power.cpp
 
 HEADERS += \
+    chart_form.h \
+    doc.h \
     form.h \
+    form_debug.h \
     mainwindow.h \
     new_plain.h \
     normal_regim.h \
@@ -25,7 +31,10 @@ HEADERS += \
     relief_power.h
 
 FORMS += \
+    chart_form.ui \
+    doc.ui \
     form.ui \
+    form_debug.ui \
     mainwindow.ui
 
 RESOURCES = application.qrc
